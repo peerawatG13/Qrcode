@@ -1,0 +1,33 @@
+.head-1{
+    text-align: center;
+    width: 100%; margin: auto;
+    background: linear-gradient(0deg, rgba(5, 255, 0, 0.3), rgba(5, 255, 0, 0.3)),
+      linear-gradient(0deg, rgba(255, 184, 0, 0.6), rgba(255, 184, 0, 0.6));
+  
+    .h1{
+      color: rgb(0, 0, 0);
+    }
+  }
+  .body-1{
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  
+    .images-1{
+      margin: auto;
+      .shop{
+        height: 120px;
+        width: 100px;
+      }
+    }
+    .images-2{
+      margin: auto;
+      .user{
+        height: 120px;
+        width: 100px;
+      }
+    }
+  }
+  
