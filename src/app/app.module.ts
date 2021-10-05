@@ -8,6 +8,8 @@ import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
 
 import { IconModule, IconSetModule, IconSetService } from '@coreui/icons-angular';
+//line login 
+
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -33,7 +35,10 @@ import {
   AppHeaderModule,
   AppFooterModule,
   AppSidebarModule,
+  
+  
 } from '@coreui/angular';
+
 
 // Import routing module
 import { AppRoutingModule } from './app.routing';
@@ -59,6 +64,7 @@ import { ChartsModule } from 'ng2-charts';
     ChartsModule,
     IconModule,
     IconSetModule.forRoot(),
+    
   ],
   declarations: [
     AppComponent,

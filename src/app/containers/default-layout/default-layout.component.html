@@ -6,6 +6,7 @@
   [navbarBrandMinimized]="{src: '', width: 30, height: 30, alt: 'CoreUI Logo'}"
   [sidebarToggler]="'lg'"
   [asideMenuToggler]="'lg'"
+  style="background: linear-gradient(180deg, #44024F 43.75%, #805295 81.25%, rgba(157, 123, 173, 0.77) 100%);"
   >
 
   <ul class="nav navbar-nav d-md-down-none">
@@ -38,8 +39,8 @@
 </app-header>
 
 <div class="app-body">
-  <app-sidebar #appSidebar [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)">
-    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="appSidebar.minimized"></app-sidebar-nav>
+  <app-sidebar #appSidebar [fixed]="true" [display]="'lg'" [minimized]="sidebarMinimized" (minimizedChange)="toggleMinimize($event)" >
+    <app-sidebar-nav [navItems]="navItems" [perfectScrollbar] [disabled]="appSidebar.minimized" style="background: linear-gradient(180deg, #000000 0%, #747474 80.0%);"></app-sidebar-nav>
     <app-sidebar-minimizer></app-sidebar-minimizer>
   </app-sidebar>
   <!-- Main content -->
