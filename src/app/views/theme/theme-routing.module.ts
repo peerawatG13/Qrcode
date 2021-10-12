@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ColorsComponent } from './colors.component';
-import { TypographyComponent } from './typography.component';
+import { StoreComponent } from './store.component';
+import { StudentComponent } from './student.component';
 
 const routes: Routes = [
   {
@@ -16,17 +16,17 @@ const routes: Routes = [
         redirectTo: 'colors'
       },
       {
-        path: 'colors',
-        component: ColorsComponent,
+        path: 'store',
+        component: StoreComponent,
         data: {
-          title: 'Colors'
+          title: 'Store'
         }
       },
       {
-        path: 'typography',
-        component: TypographyComponent,
+        path: 'student',
+        component: StudentComponent,
         data: {
-          title: 'Typography'
+          title: 'student'
         }
       }
     ]

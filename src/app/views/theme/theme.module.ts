@@ -2,8 +2,8 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 
-import { ColorsComponent } from './colors.component';
-import { TypographyComponent } from './typography.component';
+import { StoreComponent } from './store.component';
+import { StudentComponent } from './student.component';
 
 // Theme Routing
 import { ThemeRoutingModule } from './theme-routing.module';
@@ -14,8 +14,8 @@ import { ThemeRoutingModule } from './theme-routing.module';
     ThemeRoutingModule
   ],
   declarations: [
-    ColorsComponent,
-    TypographyComponent
+    StoreComponent,
+    StudentComponent
   ]
 })
 export class ThemeModule { }

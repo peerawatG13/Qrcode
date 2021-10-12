@@ -16,6 +16,12 @@ const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
 };
 
 import { AppComponent } from './app.component';
+// Import npm all 
+import { NgImageSliderModule } from 'ng-image-slider';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 // Import containers
 import { DefaultLayoutComponent } from './containers';
@@ -37,16 +43,19 @@ import {
   AppSidebarModule,
   
   
+
 } from '@coreui/angular';
 
 
 // Import routing module
 import { AppRoutingModule } from './app.routing';
 
+
 // Import 3rd party components
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { ChartsModule } from 'ng2-charts';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   imports: [
@@ -64,6 +73,14 @@ import { ChartsModule } from 'ng2-charts';
     ChartsModule,
     IconModule,
     IconSetModule.forRoot(),
+    NgImageSliderModule,
+    NgbModule,
+    CarouselModule,
+    HttpClientModule,
+    
+    
+    
+    
     
   ],
   declarations: [

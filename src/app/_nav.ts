@@ -9,16 +9,16 @@ export const navItems: INavData[] = [
   },
   {
     title: true,
-    name: 'Theme'
+    name: 'การใช้งาน'
   },
   {
-    name: 'Colors',
-    url: '/theme/colors',
+    name: 'ร้านค้า',
+    url: '/theme/store',
     icon: 'icon-drop'
   },
   {
-    name: 'Typography',
-    url: '/theme/typography',
+    name: 'นักเรียน',
+    url: '/theme/student',
     icon: 'icon-pencil'
   },
   {
