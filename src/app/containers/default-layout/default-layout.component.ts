@@ -10,11 +10,14 @@ import { navItems } from '../../_nav';
 export class DefaultLayoutComponent implements OnInit {
   public sidebarMinimized = false;
   public navItems = navItems;
- 
-  constructor(){
 
- }
-// line
+  constructor(){}
+
+
+  toggleMinimize(e) {
+    this.sidebarMinimized = e;
+  }
+  
   ngOnInit(){
     
   }
