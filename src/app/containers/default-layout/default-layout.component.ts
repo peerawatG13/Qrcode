@@ -2,7 +2,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component , OnInit } from '@angular/core';
 import liff from '@line/liff/dist/lib';
-import { profile } from 'console';
 import { navItems } from '../../_nav';
 
 
