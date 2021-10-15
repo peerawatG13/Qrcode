@@ -3,9 +3,9 @@
   "version": "2.11.2",
   "scripts": {
     "ng": "ng",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only",
-    "start": "node server.js",
-    "build": "ng build ",
+    "postinstall": "ng build --output-path angularapp  --aot --prod",
+    "start": "ng serve --port $PORT --host 0.0.0.0 --disable-host-check",
+    "build": "ng build --prod --aot --build-optimizer --common-chunk --vendor-chunk --optimization --progress",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
