@@ -31,6 +31,21 @@ export class DefaultLayoutComponent implements OnInit {
   ngOnInit(): void {
    
   }
+  liffline(){
+    liff.init({
+      liffId:'1656299107-xQZbkJjd'
+    }).then(() => {
+      if(liff.isLoggedIn()){
+        liff.getProfile().then(proflie => {
+          console.log(proflie);
+        })
+      }else{
+        liff.login();
+      }
+    })
+  }
+  
+
   
   
 }
