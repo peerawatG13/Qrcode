@@ -1,5 +1,4 @@
 
-import { HttpClient } from '@angular/common/http';
 import { Component , OnInit } from '@angular/core';
 import { navItems } from '../../_nav';
 
@@ -14,11 +13,12 @@ export class DefaultLayoutComponent implements OnInit {
   public sidebarMinimized = false;
   public navItems = navItems;
 
-  constructor(private hfttp : HttpClient){}
-  
+  constructor(){}
+
   ngOnInit(): void {
    
   }
+  
   
   
 }
